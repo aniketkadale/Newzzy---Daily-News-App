@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+.app__header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar-collapse ul>li>a:hover{
+  color: red;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
